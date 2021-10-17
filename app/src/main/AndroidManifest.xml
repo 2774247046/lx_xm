@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lx_xm">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:usesCleartextTraffic="true"
+        android:name="com.example.lx_2.adapter.Latepal_name"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="项目1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        tools:targetApi="m">
+        <activity
+            android:name="com.lx3.web"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.UP_ye"/>
+        <activity android:name=".UI.Add_ye"/>
+        <activity android:name="com.example.lx_2.Ui.Add_menu"/>
+        <activity android:name="com.example.lx_2.Ui.UP_Ui"/>
+        <activity android:name="com.example.xm3.Add_account"/>
+        <activity android:name="com.example.xm3.Borrow_book"/>
+    </application>
+</manifest>
